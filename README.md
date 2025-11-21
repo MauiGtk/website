@@ -11,12 +11,19 @@ The MauiGtk Community website/blog for documentations and promoting.
 - Hugo extended
 - npm
 
+```sh
+# Install tailwindcss
+sudo npm install -g tailwindcss
+```
+
 ### Run
 
 ```sh
-npm i
-npm start
+npm i # Once
+npm run start
 ```
+
+### Build
 
 ### Update theme
 
