@@ -16,6 +16,10 @@ hasCJKLanguage = true
 # Disqus Comment System
 #disqusShortname = ""
 
+# In Japan Standard Time, recent post is treated as a future-dated entry, so the page will not be generated.
+# Therefore, I set buildFuture to true to ensure the post is generated correctly.
+buildFuture = true
+
 [params]
   showBlog = true
   mainSections = ['blog']
