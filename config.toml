@@ -1,0 +1,126 @@
+baseURL = 'https://mauigtk.net/'
+title = 'MauiGtk website'
+author = "MauiGtk Community"
+languageCode = 'en-us'
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+# In Japan Standard Time, recent post is treated as a future-dated entry, so the page will not be generated.
+# Therefore, I set buildFuture to true to ensure the post is generated correctly.
+buildFuture = true
+
+[params]
+  showBlog = true
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  [params.logo]
+    main = "img/logo/maui-linux.png"
+    alt = "Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "MauiGtk website"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = ".NET MAUI with GTK technology!"
+    meta_og_title = "MauiGtk website"
+    meta_og_type = "website"
+    meta_og_url = "https://mauigtk.net"
+    # meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+    meta_og_description = ".NET MAUI with GTK technology!"
+    # meta_twitter_card = "summary_large_image"
+    # meta_twitter_site = "@username"
+    # meta_twitter_creator = "@username"
+
+[menu]
+  [[menu.main]]
+    identifier = "products"
+    name = "Products"
+    url = "/products/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/MauiGtk"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 2
+
+  [[menu.footer]]
+    name = "Mastodon"
+    url = "https://fosstodon.org/@mauigtk"
+    pre = "<i class='icon-link text-2xl'></i>"
+      weight = 3
+
+# `configTaxo.toml`
+# 
+# timeout = 30000
+# enableInlineShortcodes = true
+# 
+# [taxonomies]
+# category = "categories"
+# tag = "tags"
+# series = "series"
+# 
+# [privacy]
+# 
+#   [privacy.vimeo]
+#     disabled = false
+#     simple = true
+# 
+#   [privacy.twitter]
+#     disabled = false
+#     enableDNT = true
+#     simple = true
+#     disableInlineCSS = true
+# 
+#   [privacy.instagram]
+#     disabled = false
+#     simple = true
+# 
+#   [privacy.youtube]
+#     disabled = false
+#     privacyEnhanced = true
