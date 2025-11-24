@@ -27,7 +27,7 @@ buildFuture = true
   googleFonts = true
 
   [params.logo]
-    main = "img/logo/logo.svg"
+    main = "img/logo/maui-linux.png"
     alt = "Logo"
 
     # The size parameter is the class name of tailwindcss
@@ -88,6 +88,12 @@ buildFuture = true
     url = "https://github.com/MauiGtk"
     pre = "<i class='icon-github text-2xl'></i>"
       weight = 2
+
+  [[menu.footer]]
+    name = "Mastodon"
+    url = "https://fosstodon.org/@mauigtk"
+    pre = "<i class='icon-link text-2xl'></i>"
+      weight = 3
 
 # `configTaxo.toml`
 # 
