@@ -14,20 +14,18 @@ The MauiGtk Community website/blog for documentations and promoting, based on th
 #### Debian
 
 ```sh
+# Hugo extended
 wget https://github.com/gohugoio/hugo/releases/download/v0.153.5/hugo_extended_0.153.5_linux-amd64.deb
 sudo dpkg -i hugo_extended_0.153.5_linux-amd64.deb
+
+# npm
 sudo apt-get update
 sudo apt-get install npm
-sudo npm install -g sass
 ```
 
-### Tailwind & Submodules
+### Install submodules
 
 ```sh
-# Install tailwindcss
-sudo npm install -g tailwindcss
-npm install -D @tailwindcss/cli  # CLI no longer included in Tailwind 4
-
 # After cloned this repository
 # Setup for submodule
 git submodule update --init --recursive
