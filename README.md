@@ -1,6 +1,6 @@
 # MauiGtk website
 
-The MauiGtk Community website/blog for documentations and promoting, based on the [Tella theme](https://github.com/opera7133/tella).
+The MauiGtk Community website/blog for documentations and promoting, based on the [Tella theme](https://github.com/opera7133/tella) we forked [here](https://github.com/MauiGtk/tella).
 
 ## Usage
 
