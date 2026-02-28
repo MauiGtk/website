@@ -41,6 +41,9 @@ npm run start
 
 ### Build
 
+> [!note]
+> Currently, this will break the layout supposedly due to an issue with the tello theme. But it is usually not necessary to run build. New content is added using the `npn run start` command.
+
 ```sh
 npm run build
 ```
